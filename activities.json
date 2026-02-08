@@ -1,0 +1,74 @@
+[
+  {
+    "userId": "user1",
+    "activityType": "data_download",
+    "activityTime": "2025-10-27T12:44"
+  },
+  {
+    "userId": "user1",
+    "activityType": "data_download",
+    "activityTime": "2025-10-27T12:44"
+  },
+  {
+    "userId": "user1",
+    "activityType": "data_download",
+    "activityTime": "20202-02-02T14:02"
+  },
+  {
+    "userId": "user1",
+    "activityType": "data_download",
+    "activityTime": "20202-02-02T14:02"
+  },
+  {
+    "userId": "user1",
+    "activityType": "email_sent",
+    "activityTime": "20202-02-02T14:02"
+  },
+  {
+    "userId": "user1",
+    "activityType": "data_download",
+    "activityTime": "2006-07-07T14:02"
+  },
+  {
+    "userId": "user1",
+    "activityType": "file_access",
+    "activityTime": "2006-02-02T14:02"
+  },
+  {
+    "userId": "user4",
+    "activityType": "file_access",
+    "timestamp": "2025-10-08T13:48"
+  },
+  {
+    "userId": "karthika",
+    "activityType": "file_access",
+    "timestamp": "2025-10-16T13:56"
+  },
+  {
+    "userId": "ashwini",
+    "activityType": "unauthorized_access",
+    "timestamp": "2025-10-15T13:56"
+  },
+  {
+    "userId": "keerthana",
+    "activityType": "login",
+    "timestamp": "2025-10-24T13:57"
+  },
+  {
+    "userId": "ksri",
+    "activityType": "login",
+    "timestamp": "2025-10-17T13:58"
+  },
+  {
+    "userId": "user1",
+    "type": "file_access",
+    "riskScore": 10,
+    "time": "2025-10-27T13:14:44.523Z"
+  },
+  {
+    "userId": "aish1212",
+    "type": "data_transfer",
+    "riskScore": 12,
+    "time": "2025-10-27T13:27:22.163Z"
+  }
+]

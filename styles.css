@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Tailwind base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Extra animations */
+button:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.alert-box {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

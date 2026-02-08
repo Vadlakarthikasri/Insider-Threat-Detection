@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🛡️ Insider Threat Detection</title>
+
+    <!-- Tailwind CSS + Chart.js -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- App Logic -->
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body
+    class="bg-[#0a0f1f] text-[#00ff99] font-mono min-h-screen flex flex-col"
+  >
+    <!-- Navbar -->
+    <nav
+      class="bg-[#0d1529] p-4 flex justify-between items-center border-b border-[#00ff99] shadow-lg"
+    >
+      <h1 class="text-2xl font-bold tracking-wider">
+        🛡️ Insider Threat Detection
+      </h1>
+      <div class="flex flex-col sm:flex-row gap-2 sm:gap-4">
+        <button
+          id="dashboardBtn"
+          class="px-6 py-2 bg-[#00ff99] text-black font-semibold rounded-lg hover:bg-[#00cc7a] transition w-full sm:w-auto"
+        >
+          Dashboard
+        </button>
+        <button
+          id="addActivityBtn"
+          class="px-6 py-2 bg-[#00ff99] text-black font-semibold rounded-lg hover:bg-[#00cc7a] transition w-full sm:w-auto"
+        >
+          Add Activity
+        </button>
+        <button
+          id="reportsBtn"
+          class="px-6 py-2 bg-[#00ff99] text-black font-semibold rounded-lg hover:bg-[#00cc7a] transition w-full sm:w-auto"
+        >
+          Reports
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main
+      id="content"
+      class="flex-grow p-8 text-center transition-all duration-300"
+    >
+      <h2 class="text-3xl font-semibold mb-4">Welcome!</h2>
+      <p class="text-[#66ffcc] text-lg">
+        Select an option to begin analyzing user behavior.
+      </p>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="bg-[#0d1529] text-[#00ff99] text-center p-3 text-sm border-t border-[#00ff99]"
+    >
+      © 2025 Insider Threat Detection | Behaviour Analysis System
+    </footer>
+  </body>
+</html>
