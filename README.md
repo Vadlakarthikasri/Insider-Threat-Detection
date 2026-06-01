@@ -97,7 +97,7 @@ http://localhost:3000
 
 ## Author
 
-Karthikaari
+Karthikasri
 
 ## License
 
